@@ -1,6 +1,18 @@
 # control-systems
-control a 4 degree of freedom robotic arm using webcam
+Control a 4 degree of freedom robotic arm using webcam
 
+This is my control systems project for the 4th semester. The arm can be made by 3d printing/ can be bought.
+It has 4 degrees of freedom:
+1. Rotation of the base
+2. Move the arm forward and backward
+3. Move the elbow up and down
+4. Movement of the gripper - open and close
+
+It has been implemented in the following manner -
+1. movement of base - right hand, thumb + index
+2. movement of arm i.e up and down - right hand, thumb + middle
+3. movement of arm i.e forward and backward - left hand, thumb and index
+4. movement of gripper - left hand, thumb + middle
 
 This is the arduino code for the 3 motors, don't add the gripper initially
 #include <Servo.h>
