@@ -90,5 +90,5 @@ void loop() {
 }
 
 
-Videos of the demo can be found in the media file.
+Videos of the demo can be found.
 
